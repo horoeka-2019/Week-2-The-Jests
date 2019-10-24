@@ -1,0 +1,29 @@
+{
+    "mood1": [
+     {
+      "id": 1,
+      "title": "Can't Stop - RHCP",
+      "image": "/images/placeholder1",
+      "link": "to be added"
+     }
+    ],
+
+    "mood2": [
+     {
+        "id": 2,
+        "title": "song title by jHEFBAJG",
+        "owner": "Fred",
+        "image": "/images/placeholder2",
+        "link": "to be added"
+        }
+       ],
+    
+    "mood3": [
+        {
+        "id": 3,
+        "title": "song title kegrbkwf",
+        "image": "/images/placeholder3",
+        "link": "to be added"
+        }
+       ]
+   }
