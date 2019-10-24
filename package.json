@@ -1,0 +1,28 @@
+{
+  "name": "week-2-the-jests",
+  "version": "1.0.0",
+  "description": "Song Suggestor For Your Mood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horoeka-2019/Week-2-The-Jests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horoeka-2019/Week-2-The-Jests/issues"
+  },
+  "homepage": "https://github.com/horoeka-2019/Week-2-The-Jests#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.4.5"
+  }
+}
