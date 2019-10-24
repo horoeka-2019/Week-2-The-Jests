@@ -9,9 +9,7 @@ homeRouter.get('/', (req, res) => {
 
 homeRouter.get('/mood1', (req, res) => {
   const template = 'mood'
-  const viewData = {
-    hello: 'world'
-  }
+  const viewData = data[0]
   
   res.render(template, viewData)
 })
