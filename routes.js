@@ -1,6 +1,6 @@
 const express = require('express')
 const homeRouter = express.Router()
-const data = './data.json'
+const data = require('./data.json')
 
 //routes (homepage place holder)
 homeRouter.get('/', (req, res) => {
@@ -8,7 +8,12 @@ homeRouter.get('/', (req, res) => {
 })
 
 homeRouter.get('/mood1', (req, res) => {
-  res.send('This is the moodpage 1 template')
+  const template = 'mood'
+  const viewData = {
+    hello: 'world'
+  }
+  
+  res.render(template, viewData)
 })
 
 
