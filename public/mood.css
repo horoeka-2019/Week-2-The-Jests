@@ -1,0 +1,63 @@
+body {
+    background-color: pink;
+}
+
+#home {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: pink;
+    border-radius: 5px;
+    outline:none;
+}
+
+#subtitle {
+    color:gray;
+    font-size:60px;
+    text-align: center;
+}
+
+#tableContainer-1 {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+#tableContainer-2 {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+/* table{
+    border-collapse: collapse;
+    align-items: center;
+    vertical-align: middle;
+} */
+
+table tr td {
+    border: 1px solid white;
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+a{
+    color: white
+}
+
+a:hover {
+    color: rgb(53, 52, 52)
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
