@@ -47,29 +47,7 @@ main {
   
 
   }
-  /* height: 60vh; 
-  width: 60vw;
-  margin: auto; */
-
-  /* #bg {
-    position: fixed; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
-  }
-  #bg img {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
-    background-image: linear-gradient(rgba(247, 243, 243, 0.438), rgba(233, 231, 231, 0.664))
-  } */
-
+  
   .footer {
     position: bottom;
     font-size: 30%
@@ -152,11 +130,4 @@ main {
   border:1px solid #ccff66
  }
 
- /* .btn:hover, .btn:active {
-  display: inline-block;
-  padding: 10px 30px;
-  font-weight: 300;
-  text-decoration: none;
-  border-radius: 200px;
-  border:1px solid #ccff66
-} */
+
