@@ -1,0 +1,46 @@
+
+.butt1 {
+  width: 25vh;
+  height:25vh;
+  border-radius: 5px;
+  background-image: linear-gradient( rgb(255, 153, 153), rgb(248, 255, 153));
+  font-size: 2.75em;
+  margin: 50px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  border-style: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
+.butt2 {
+  width: 25vh;
+  height:25vh;
+  border-radius: 5px;
+  background-image: linear-gradient( rgb(76, 194, 194), rgb(153, 168, 255));
+  font-size: 2.75em;
+  margin: 50px;
+  font-weight: bold;
+  font-family: 'Courgette', sans-serif;
+  border-style: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.butt3 {
+  width: 25vh;
+  height:25vh;
+  border-radius: 5px;
+  margin: 50px;
+  background-image: linear-gradient( rgb(255, 153, 230), rgb(107, 204, 95));
+  font-size: 2.75em;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  border-style: none;
+  border: 1px solid black;
+  cursor: move;
+}
+.buttdiv {
+  width:100%;
+  text-align: center;
+}
