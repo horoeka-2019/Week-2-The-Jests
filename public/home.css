@@ -5,6 +5,7 @@
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 0;
+
 }
 
 .title {
@@ -37,7 +38,7 @@ html {
     }
 
 main {
-  background-image: linear-gradient(rgba(247, 243, 243, 0.438), rgba(233, 231, 231, 0.664)), url(image/homebackground.jpeg);
+  background-image: linear-gradient(rgba(247, 243, 243, 0.438), rgba(233, 231, 231, 0.664)), url("./homebackground.jpeg");
   background-size: cover;
   background-position: center;
    height: 100vh; 

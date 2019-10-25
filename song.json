@@ -1,8 +1,13 @@
 {
-  "happy":{"link":"https://www.youtube.com/watch?v=ZbZSe6N_BXs",
-  "name": "Pharrell Williams - Happy " },
+  "happy":{
+    "link":"https://www.youtube.com/watch?v=ZbZSe6N_BXs",
+    "name": "Pharrell Williams - Happy ",
+    "mood":"Happy" },
   "blue":{"link":"https://www.youtube.com/watch?v=wSgChEB7QIs",
-           "name": "timmies - tell me why i'm waiting (ft. shiloh)"},
+           "name": "timmies - tell me why i'm waiting (ft. shiloh)",
+           "mood":"Sad"},
   "party": {"link": "https://www.youtube.com/watch?v=EEg6duoo6UU", 
-            "name": "marshmello - Summer"
+            "name": "marshmello - Summer",
+            "mood":"Party"
+}
 }

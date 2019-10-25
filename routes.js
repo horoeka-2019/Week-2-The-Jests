@@ -1,6 +1,6 @@
 const express = require('express')
 const homeRouter = express.Router()
-const data = require('./data.json')
+const data = require('./song.json')
 const path = require('path')
 const filePath = path.join(__dirname, '/home.html')
 
@@ -12,18 +12,24 @@ homeRouter.get('/', (req, res) => {
 
 homeRouter.get('/happymood', (req, res) => {
   const template = 'mood'
-  const viewData = data[0]
+  const viewData = data.happy
   
   res.render(template, viewData)
 })
 
 
 homeRouter.get('/sadmood', (req, res) => {
-  res.send('This is the moodpage 2 template')
+  const template = 'mood'
+  const viewData = data.blue
+  
+  res.render(template, viewData)
 })
 
 homeRouter.get('/partymood', (req, res) => {
-  res.send('This is the moodpage 3 template')
+  const template = 'mood'
+  const viewData = data.party
+  
+  res.render(template, viewData)
 })
 
 module.exports = homeRouter
