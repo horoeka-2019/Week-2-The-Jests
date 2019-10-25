@@ -1,10 +1,13 @@
 const express = require('express')
 const homeRouter = express.Router()
 const data = require('./data.json')
+const path = require('path')
+const filePath = path.join(__dirname, '/home.html')
 
 //routes (homepage place holder)
 homeRouter.get('/', (req, res) => {
-  res.send('helloa d asdas das')
+  res.sendFile(filePath)
+  
 })
 
 homeRouter.get('/happymood', (req, res) => {
@@ -15,11 +18,11 @@ homeRouter.get('/happymood', (req, res) => {
 })
 
 
-homeRouter.get('/mood2', (req, res) => {
+homeRouter.get('/sadmood', (req, res) => {
   res.send('This is the moodpage 2 template')
 })
 
-homeRouter.get('/mood3', (req, res) => {
+homeRouter.get('/partymood', (req, res) => {
   res.send('This is the moodpage 3 template')
 })
 
