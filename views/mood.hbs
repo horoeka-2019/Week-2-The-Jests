@@ -2,6 +2,15 @@
 <html>
     <head>
         <link rel="stylesheet" href="../mood.css">
+        <style>
+            body{
+                background-color: {{color}}
+            }
+            #home{
+                background-color: {{color}}
+            }
+        </style>
+
     </head>  
     <body>
         <div>
@@ -15,12 +24,17 @@
         
         <div id="tableContainer1">
             <div id="tableContainer2">
-                <table>
+                {{!-- <table>
                     <tr>
-                        <td>
-                            <a href={{link}}>{{name}}</a>
-                        </td>
-                    </tr>
+                        <td> --}}
+                            <span style="text-align: center;">
+                            <div style="
+  vertical-align: middle; line-height:50px; height:50px; width:50%; margin: auto; border: 1px solid white; ">
+                             <a href={{link}}>{{name}}</a>
+                            </div>
+                            </span>
+                        {{!-- </td>
+                    </tr> --}}
                     {{!-- <tr>
                         <td>
                             <a>name of song2</a>
@@ -31,7 +45,7 @@
                             <a>name of song3</a>
                         </td>
                     </tr> --}}
-                </table>
+                {{!-- </table> --}}
             </div>
         </div>
     </body>

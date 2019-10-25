@@ -2,12 +2,15 @@
   "happy":{
     "link":"https://www.youtube.com/watch?v=ZbZSe6N_BXs",
     "name": "Pharrell Williams - Happy ",
-    "mood":"Happy" },
+    "mood":"Happy",
+    "color": "pink" },
   "blue":{"link":"https://www.youtube.com/watch?v=wSgChEB7QIs",
            "name": "timmies - tell me why i'm waiting (ft. shiloh)",
-           "mood":"Sad"},
+           "mood":"Sad",
+           "color": "#8FD8D8"},
   "party": {"link": "https://www.youtube.com/watch?v=EEg6duoo6UU", 
             "name": "marshmello - Summer",
-            "mood":"Party"
+            "mood":"Party",
+            "color": "peachpuff"
 }
 }
