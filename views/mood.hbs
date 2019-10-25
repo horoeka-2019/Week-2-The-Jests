@@ -1,31 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../mood.css">
+    </head>  
+    <body>
+        <div>
+            <button id="home" onclick="location.href='http://localhost:3000/'">HOME</button>
+        </div>
 
-  <body>
-    <div>
-        <button>HOME</button>
-    </div>
+        <div>
+            <h1 id="subtitle">HAPPY</h1>
+        </div>
 
-    <div>
-        <h1>MOOD</h1>
-    </div>
-
-    <div>
-        <table>
-            <tr>
-                <td>
-                    {{id}}
-                </td>
-            </tr>
-        </table>
-    </div>
-
-    <div>
-        <table>
-            <tr>
-                <td>
-                    list of songs
-                </td>
-            </tr>
-        </table>
-    </div>
-</body>
+        
+        <div id="tableContainer1">
+            <div id="tableContainer2">
+                <table>
+                    <tr>
+                        <td>
+                            <a href={{link}}>name of song1</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>name of song2</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>name of song3</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>
