@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/horoeka-2019/Week-2-The-Jests#readme",
   "devDependencies": {
-    "jest": "^24.9.0",
+    "jest": "^29.6.1",
     "nodemon": "^1.19.4"
   },
   "dependencies": {
